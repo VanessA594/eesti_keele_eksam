@@ -9,6 +9,7 @@ h1, h2 {
 
 
 header {
+  background-image: url('images/EE%201.png');
   display: flex;
   align-items: center; 
   background-color: #007BFF; 
