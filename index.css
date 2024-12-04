@@ -1,29 +1,50 @@
-
+/* Üldised stiilid */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif; /* Lihtne ja loetav font */
+  margin: 0; /* Eemaldab vaikeäärised */
+  padding: 0; /* Eemaldab vaikepadja */
+  background-color: #f5f5f5; /* Hele taust */
 }
 
 h1, h2 {
-  font-weight: bold;
+  font-weight: bold; /* Muudab pealkirjad paksuks */
+  margin: 0; /* Eemaldab vaikevahed */
 }
 
-
-
+/* Header ja logo */
 header {
-  display: flex; /* Paigutab logo ja teksti samale reale */
-  align-items: center; /* Joondab vertikaalselt keskele */
-  padding: 10px; /* Lisab ruumi ümber headeri */
+  display: flex; /* Paigutab logo ja pealkirja samale reale */
+  align-items: center; /* Joondab logo ja teksti vertikaalselt keskele */
+  padding: 10px 20px; /* Lisab ruumi ümber headeri */
+  background-color: #007bff; /* Sinine taust */
+  color: white; /* Tekst valge */
 }
 
 header img.logo {
   width: 100px; /* Logo laiuse määramine */
   height: auto; /* Säilitab logo proportsioonid */
-  margin-right: 20px; /* Lisab logo ja teksti vahele ruumi */
+  margin-right: 20px; /* Lisab ruumi logo ja teksti vahele */
 }
 
-header h1 {
-  font-size: 24px;
-  margin: 0;
+/* Peamine sisu */
+main {
+  max-width: 800px; /* Piirab sisu laiust */
+  margin: 20px auto; /* Keskendab sisu */
+  padding: 20px; /* Lisab sisule ruumi */
+  background-color: white; /* Sisu valge taust */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Kerge varjuefekt */
+  border-radius: 8px; /* Ümarad nurgad */
 }
 
+/* Jalus */
+footer {
+  background-color: #f8f9fa; /* Helehall taust */
+  text-align: center; /* Joondab teksti keskele */
+  padding: 10px; /* Lisab ruumi jaluse sees */
+  font-size: 14px; /* Väiksem font */
+  color: #6c757d; /* Tumehall tekst */
+  margin-top: 20px; /* Lisab vahe sisu ja jaluse vahel */
+}
 
+/* Väiksemad ekraanid */
+@media 
