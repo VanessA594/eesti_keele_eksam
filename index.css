@@ -1,3 +1,4 @@
+
 /* Üldised stiilid */
 body {
   font-family: Arial, sans-serif; /* Lihtne ja loetav font */
@@ -47,4 +48,18 @@ footer {
 }
 
 /* Väiksemad ekraanid */
-@media 
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; /* Muudab logo ja pealkirja virnastatud paigutuseks */
+    text-align: center; /* Joondab teksti keskele */
+  }
+
+  header img.logo {
+    margin: 0 0 10px 0; /* Lisab ruumi logo alla */
+  }
+
+  main {
+    margin: 10px; /* Väiksemad ääred väiksematel ekraanidel */
+    padding: 15px; /* Väiksem padjandus väiksematel ekraanidel */
+  }
+}
