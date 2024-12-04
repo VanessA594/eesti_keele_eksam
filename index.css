@@ -2,6 +2,9 @@
 /* Üldised stiilid */
 body {
   font-family: 'Newsreader', sans-serif; /* Lihtne ja loetav font */
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   margin: 0; /* Eemaldab vaikeäärised */
   padding: 0; /* Eemaldab vaikepadja */
   background-color: #f5f5f5; /* Hele taust */
@@ -63,3 +66,5 @@ footer {
     padding: 15px; /* Väiksem padjandus väiksematel ekraanidel */
   }
 }
+
+
