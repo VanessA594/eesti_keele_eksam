@@ -39,9 +39,8 @@ main {
   background-color: white; /* Sisu valge taust */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Kerge varjuefekt */
   border-radius: 8px; /* Ümarad nurgad */
-}
-.start-btn {
-  background-color: #007bff;
+  .start-btn {
+  background-color: #000;
   color: #fff;
   border-radius: 8px;
   font-family: 'Newsreader', sans-serif;
@@ -54,6 +53,8 @@ main {
 .start-btn:hover {
   background-color: #0056b3; /* Hover efekt */
 }
+}
+
 
 
 /* Jalus */
