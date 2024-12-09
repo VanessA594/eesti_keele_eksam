@@ -43,18 +43,19 @@ main {
 
 
 .start-btn {
-  background-color: #000; /* Must nupp */
+  background-color: #000; /* Must taust */
   color: #fff; /* Valge tekst */
-  border-radius: 8px;
-  font-size: 20px;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
+  border-radius: 8px; /* Nupu ümarad nurgad */
+  font-size: 20px; /* Teksti suurus */
+  padding: 10px 20px; /* Ruumi lisamine nupu sees */
+  border: none; /* Ei mingit äärist */
+  cursor: pointer; /* Hiirekursor muutub klikitavaks */
 }
 
 .start-btn:hover {
-  background-color: #333; /* Hover efekt */
+  background-color: #333; /* Hover efekt (veidi heledam must) */
 }
+
 
 
 
