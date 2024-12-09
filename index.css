@@ -23,6 +23,7 @@ header {
   padding: 10px 20px; /* Lisab ruumi ümber headeri */
   background-color: #007bff; /* Sinine taust */
   color: white; /* Tekst valge */
+  margin-top: 50px;
 }
 
 header img.logo {
