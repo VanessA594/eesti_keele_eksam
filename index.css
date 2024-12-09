@@ -56,6 +56,15 @@ main {
   background-color: #333; /* Hover efekt (veidi heledam must) */
 }
 
+.intro-text {
+  font-size: 18px; /* Suurem font, et oleks selgelt loetav */
+  color: #333; /* Tumehall tekst */
+  text-align: center; /* Tekst joondub keskele */
+  margin-top: 20px; /* Lisab ruumi nupu ja teksti vahele */
+  padding: 0 15px; /* Lisab vähe ruumi tekstile mõlemalt poolt */
+  line-height: 1.6; /* Parandab loetavust, lisades rohkem vahelinekuid ridadele */
+}
+
 
 
 
