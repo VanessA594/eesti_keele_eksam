@@ -40,6 +40,21 @@ main {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Kerge varjuefekt */
   border-radius: 8px; /* Ümarad nurgad */
 }
+.start-btn {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 8px;
+  font-family: 'Newsreader', sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.start-btn:hover {
+  background-color: #0056b3; /* Hover efekt */
+}
+
 
 /* Jalus */
 footer {
