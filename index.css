@@ -14,6 +14,7 @@ body {
 h1 {
   font-weight: bold; /* Muudab pealkirjad paksuks */
   margin: 0; /* Eemaldab vaikevahed */
+  margin-top: 30px;
 }
 
 /* Header ja logo */
@@ -58,10 +59,10 @@ main {
 }
 
 .intro-text {
-  font-size: 30px; /* Suurem font, et oleks selgelt loetav */
+  font-size: 40px; /* Suurem font, et oleks selgelt loetav */
   color: #000; /* Must tekst */
-  text-align: center; /* Tekst joondub keskele */
-  margin-top: 20px; /* Lisab ruumi nupu ja teksti vahele */
+  text-align: left; /* Tekst joondub keskele */
+  margin-top: 50px; /* Lisab ruumi nupu ja teksti vahele */
   padding: 0 15px; /* Lisab vähe ruumi tekstile mõlemalt poolt */
   line-height: 1.6; /* Parandab loetavust, lisades rohkem vahelinekuid ridadele */
 }
