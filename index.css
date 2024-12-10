@@ -30,7 +30,7 @@ header {
 header img.logo {
   width: 100px; /* Logo laiuse määramine */
   height: auto; /* Säilitab logo proportsioonid */
-  margin-right: 20px; /* Lisab ruumi logo ja teksti vahele */
+  margin-right: 50px; /* Lisab ruumi logo ja teksti vahele */
 }
 
 /* Peamine sisu */
