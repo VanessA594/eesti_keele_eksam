@@ -56,9 +56,6 @@ main {
   text-align: center;
 }
 
-.start-btn:hover {
-  background-color: #333; /* Hover efekt */
-}
 
 .intro-text {
   font-size: 18px; /* Selge ja loetav */
