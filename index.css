@@ -52,6 +52,7 @@ main {
   padding: 10px 20px; /* Ruumi lisamine nupu sees */
   border: none; /* Ei mingit äärist */
   cursor: pointer; /* Hiirekursor muutub klikitavaks */
+  text-align: center;
 }
 
 .start-btn:hover {
