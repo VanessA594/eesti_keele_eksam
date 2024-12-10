@@ -45,15 +45,16 @@ main {
 }
 
 .start-btn {
-  background-color: #000; /* Must taust */
-  color: #fff; /* Valge tekst */
-  border-radius: 8px;
-  font-size: 20px;
-  padding: 15px 25px;
+  background-color: #000;
   border: none;
-  cursor: pointer;
-  display: inline-block;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .start-btn:hover {
