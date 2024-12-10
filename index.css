@@ -19,12 +19,12 @@ h1 {
 
 /* Header ja logo */
 header {
-  display: flex; /* Paigutab logo ja pealkirja samale reale */
   align-items: center; /* Joondab logo ja teksti vertikaalselt keskele */
   padding: 10px 20px; /* Lisab ruumi ümber headeri */
   background-color: #007bff; /* Sinine taust */
   color: white; /* Tekst valge */
   margin-top: 50px;
+  font-size: 64px;
 }
 
 header img.logo {
