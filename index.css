@@ -1,102 +1,100 @@
 
 /* Üldised stiilid */
 body {
-  font-family: 'Newsreader', sans-serif; /* Lihtne ja loetav font */
+  font-family: 'Newsreader', sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-size: 64px;
-  margin: 0; /* Eemaldab vaikeäärised */
-  padding: 0; /* Eemaldab vaikepadja */
+  font-weight: 400;
+  font-size: 16px; /* Üldine font suurus */
+  margin: 0;
+  padding: 0;
   background-color: #f5f5f5; /* Hele taust */
 }
 
 h1 {
-  font-weight: bold; /* Muudab pealkirjad paksuks */
-  margin: 0; /* Eemaldab vaikevahed */
+  font-weight: bold;
+  margin: 0;
   margin-top: 30px;
+  text-align: center; /* Pealkiri keskele */
 }
 
 /* Header ja logo */
 header {
-  align-items: center; /* Joondab logo ja teksti vertikaalselt keskele */
-  padding: 10px 20px; /* Lisab ruumi ümber headeri */
+  display: flex;
+  flex-direction: column; /* Logo ja tekst virnastatud */
+  align-items: center;
+  padding: 20px;
   background-color: #007bff; /* Sinine taust */
   color: white; /* Tekst valge */
   margin-top: 50px;
-  font-size: 64px;
 }
 
 header img.logo {
-  width: 100px; /* Logo laiuse määramine */
-  height: auto; /* Säilitab logo proportsioonid */
-  margin-right: 50px; /* Lisab ruumi logo ja teksti vahele */
+  width: 100px; /* Logo suurus */
+  height: auto;
+  margin-bottom: 20px; /* Ruumi logo ja teksti vahel */
 }
 
 /* Peamine sisu */
 main {
-  max-width: 800px; /* Piirab sisu laiust */
-  margin: 20px auto; /* Keskendab sisu */
-  padding: 20px; /* Lisab sisule ruumi */
-  background-color: white; /* Sisu valge taust */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Kerge varjuefekt */
-  border-radius: 8px; /* Ümarad nurgad */
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
-
 
 .start-btn {
   background-color: #000; /* Must taust */
   color: #fff; /* Valge tekst */
-  border-radius: 8px; /* Nupu ümarad nurgad */
-  font-size: 20px; /* Teksti suurus */
-  padding: 10px 20px; /* Ruumi lisamine nupu sees */
-  border: none; /* Ei mingit äärist */
-  cursor: pointer; /* Hiirekursor muutub klikitavaks */
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 15px 25px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
   text-align: center;
 }
 
 .start-btn:hover {
-  background-color: #000; /* Hover efekt (veidi heledam must) */
+  background-color: #333; /* Hover efekt */
 }
 
 .intro-text {
-  font-size: 40px; /* Suurem font, et oleks selgelt loetav */
-  color: #000; /* Must tekst */
-  text-align: left; /* Tekst joondub keskele */
-  margin-top: 50px; /* Lisab ruumi nupu ja teksti vahele */
-  padding: 0 15px; /* Lisab vähe ruumi tekstile mõlemalt poolt */
-  line-height: 1.6; /* Parandab loetavust, lisades rohkem vahelinekuid ridadele */
+  font-size: 18px; /* Selge ja loetav */
+  color: #000;
+  text-align: left; /* Tekst joondub vasakule */
+  margin-top: 20px;
+  padding: 0 15px;
+  line-height: 1.6;
 }
-
-
-
-
 
 /* Jalus */
 footer {
-  background-color: #f8f9fa; /* Helehall taust */
-  text-align: center; /* Joondab teksti keskele */
-  padding: 10px; /* Lisab ruumi jaluse sees */
-  font-size: 14px; /* Väiksem font */
-  color: #6c757d; /* Tumehall tekst */
-  margin-top: 20px; /* Lisab vahe sisu ja jaluse vahel */
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #6c757d;
+  margin-top: 20px;
 }
 
 /* Väiksemad ekraanid */
 @media (max-width: 768px) {
   header {
-    flex-direction: column; /* Muudab logo ja pealkirja virnastatud paigutuseks */
-    text-align: center; /* Joondab teksti keskele */
+    text-align: center;
   }
 
   header img.logo {
-    margin: 0 0 10px 0; /* Lisab ruumi logo alla */
+    margin-bottom: 10px;
   }
 
   main {
-    margin: 10px; /* Väiksemad ääred väiksematel ekraanidel */
-    padding: 15px; /* Väiksem padjandus väiksematel ekraanidel */
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .intro-text {
+    font-size: 16px; /* Väiksem font mobiilidel */
   }
 }
-
-
