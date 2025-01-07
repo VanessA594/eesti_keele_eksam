@@ -14,7 +14,8 @@ body {
   font-weight: bold;
   margin: 0;
   margin-top: 30px;
-  text-align: center; /* Pealkiri keskele */
+  text-align: center;
+  color: #000000;/* Pealkiri keskele */
 }
 
 /* Header ja logo */
