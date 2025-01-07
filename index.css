@@ -24,7 +24,7 @@ header {
   align-items: center;
   padding: 20px;
   background-color: #f5f5f5; 
-  color: white; /* Tekst valge */
+  color: #000000; /* Tekst must */
   margin-top: 50px;
 }
 
