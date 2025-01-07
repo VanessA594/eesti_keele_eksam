@@ -29,9 +29,10 @@ header {
 }
 
 header img.logo {
-  width: 100px; /* Logo suurus */
-  height: auto;
-  margin-bottom: 20px; /* Ruumi logo ja teksti vahel */
+  position: absolute;
+  top: 10px; /* Logo kaugus ülevalt */
+  left: 10px; /* Logo kaugus vasakult */
+  height: 50px;
 }
 
 /* Peamine sisu */
