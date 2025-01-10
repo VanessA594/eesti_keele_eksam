@@ -78,11 +78,6 @@ h1 {
 }
 
 
-
-.start-btn:hover {
-  background-color: #333; /* Hover-efekt: tumedam must */
-}
-
 /* Intro tekst */
 .intro-text {
   font-size: 20px;
@@ -99,16 +94,7 @@ h1 {
   background-color: transparent; /* Eemalda taust */
 }
 
-/* Jalus */
-.footer {
-  background-color: #f5f5f5;
-  text-align: center;
-  padding: 10px;
-  font-size: 14px;
-  color: #6c757d;
-  margin-top: auto; /* Lükka footer ülejäänud ruumi lõppu */
-  width: 100%;
-}
+
 
 /* Väiksemad ekraanid */
 @media (max-width: 768px) {
