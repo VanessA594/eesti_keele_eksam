@@ -22,7 +22,7 @@ body {
 }
 
 /* Header ja logo */
-/*header {
+header {
   display: flex;
   flex-direction: column; /* Logo ja tekst virnastatud */
   align-items: center;
@@ -30,7 +30,7 @@ body {
   background-color: transparent; /* Taust eemaldatud */
   color: #000000; /* Tekst must */
   margin-top: 50px;
-}*/
+}
 
 header img.logo {
   position: absolute;
@@ -107,9 +107,7 @@ h1 {
   padding: 10px;
   font-size: 14px;
   color: #6c757d;
-  position: relative;
-  bottom: 0;
-  left: 0;
+  margin-top: auto; /* Lükka footer ülejäänud ruumi lõppu */
   width: 100%;
 }
 
