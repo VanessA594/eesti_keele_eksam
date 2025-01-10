@@ -7,6 +7,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: white; /* Taust hele */
+  display: flex;
+  flex-direction: column; /* Üksikute elementide paigutus vertikaalselt */
+  min-height: 100vh;
 }
 
 /* Layout määramine */
