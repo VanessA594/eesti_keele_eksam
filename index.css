@@ -42,10 +42,11 @@ header {
 header img.logo {
   width: 350px; /* Logo laius */
   height: 165px; /* Logo kõrgus */
+  top: 106px; /* Y-telje asukoht Figmast */
+  left: 96px;
   object-fit: contain; /* Veendub, et logo ei moondu */
   position: absolute; /* Paigutus vasakusse nurka */
-  top: 10px; /* Kaugus ülevalt */
-  left: 10px; /* Kaugus vasakult */
+
 }
 
 
