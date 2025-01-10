@@ -61,6 +61,8 @@ h1 {
   top: 736px; /* Y-telje asukoht Figmast */
   left: 611px; /* X-telje asukoht Figmast */
   background-color: #000;
+  width: 227px; /* Tekstikasti laius */
+  height: 64px;
   border: none;
   color: white;
   padding: 15px 32px;
