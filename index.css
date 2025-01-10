@@ -51,7 +51,6 @@ h1 {
   height: 353px; /* Tekstikasti kõrgus */
   text-align: center; /* Joonda tekst keskele */
   font-weight: 400;
-  margin: 0; /* Keskenda tekstikast lehe keskele */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Drop shadow */
   line-height: 1.2; /* Teksti reavahe */
   background-color: transparent; /* Eemalda taust */
