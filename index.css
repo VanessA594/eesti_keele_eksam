@@ -1,4 +1,3 @@
-/* Üldised stiilid */
 body {
   font-family: 'Newsreader', sans-serif;
   font-optical-sizing: auto;
@@ -9,7 +8,7 @@ body {
   background-color: white; /* Taust hele */
   display: flex;
   flex-direction: column; /* Üksikute elementide paigutus vertikaalselt */
-  min-height: 100vh; /* Kindlustab, et body katab kogu kõrguse */
+  min-height: 100vh;
 }
 
 /* Layout määramine */
@@ -22,7 +21,7 @@ body {
 }
 
 /* Header ja logo */
-header {
+.header {
   display: flex;
   flex-direction: column; /* Logo ja tekst virnastatud */
   align-items: center;
@@ -38,13 +37,13 @@ header img.logo {
   left: 96px; /* Logo kaugus vasakult */
   width: 350px; /* Logo laius */
   height: 165px; /* Logo kõrgus */
-  object-fit: contain; /* Veendub, et logo ei moondu *
+  object-fit: contain; /* Veendub, et logo ei moondu */
 }
 
 /* H1 stiil */
 .h1 {
   font-size: 64px; /* Teksti suurus */
-  position: relative; /* Positiivne paigutus, et see liiguks lehe järgi */
+  position: absolute;
   top: 348px; /* Y-telje asukoht Figmast */
   left: 215px;
   width: 1020px; /* Tekstikasti laius */
@@ -76,6 +75,12 @@ header img.logo {
 
 .start-btn:hover {
   background-color: #333; /* Hover efekt */
+}
+
+
+
+.start-btn:hover {
+  background-color: #333; /* Hover-efekt: tumedam must */
 }
 
 /* Intro tekst */
@@ -120,4 +125,4 @@ header img.logo {
     margin: 10px;
     padding: 15px;
   }
-}
+} 
