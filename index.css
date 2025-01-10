@@ -60,6 +60,8 @@ main {
 .start-btn {
   width: 227px; /* Nupu laius */
   height: 64px; /* Nupu kõrgus */
+  top: 736px; /* Y-telje asukoht Figmast */
+  left: 611px;
   border-radius: 8px; /* Nurgad ümaraks */
   background-color: #000; /* Taust must */
   border: none; /* Eemaldame ääre */
