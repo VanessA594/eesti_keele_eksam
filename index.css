@@ -63,11 +63,13 @@ h1 {
   border: none; /* Eemaldame ääre */
   color: white; /* Tekst valge */
   text-align: center; /* Teksti keskele joondamine */
-  font-size: 16px; /* Teksti suurus */
-  line-height: 64px; /* Tekst vertikaalselt keskele */
+  font-size: 14px; /* Teksti suurus väiksem */
+  line-height: 20px; /* Tekst vertikaalselt keskele joondatud, kuid sobiva kõrgusega */
   cursor: pointer; /* Kursor muutub pointeriks */
   position: absolute; /* Positsioneerimine */
+  padding: 10px 0; /* Lisatud vertikaalne täiendav tühik */
 }
+
 
 .start-btn:hover {
   background-color: #333; /* Hover-efekt: tumedam must */
