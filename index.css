@@ -10,11 +10,14 @@ body {
 }
 
 h1 {
-  font-weight: bold;
-  margin: 30px 0;
-  text-align: center;
-  color: #000000;
+  font-size: 64px; /* Teksti suurus */
+  width: 1020px; /* Tekstikasti laius */
+  height: 353px; /* Tekstikasti kõrgus */
+  text-align: center; /* Joonda tekst keskele */
+  margin: 0 auto; /* Keskenda tekstikast lehe keskele */
+  line-height: 1.2; /* Teksti reavahe */
 }
+
 
 /* Header ja logo */
 header {
