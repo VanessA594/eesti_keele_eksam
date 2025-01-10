@@ -55,21 +55,26 @@ h1 {
 
 /* Start-nupu stiil */
 .start-btn {
-  width: 227px; /* Nupu laius */
-  height: 64px; /* Nupu kõrgus */
+  position: absolute;
   top: 736px; /* Y-telje asukoht Figmast */
-  left: 611px;
-  border-radius: 8px; /* Nurgad ümaraks */
-  background-color: #000; /* Taust must */
-  border: none; /* Eemaldame ääre */
-  color: white; /* Tekst valge */
-  text-align: center; /* Teksti keskele joondamine */
-  font-size: 14px; /* Teksti suurus väiksem */
-  line-height: 20px; /* Tekst vertikaalselt keskele joondatud, kuid sobiva kõrgusega */
-  cursor: pointer; /* Kursor muutub pointeriks */
-  position: absolute; /* Positsioneerimine */
-  padding: 10px 0; /* Lisatud vertikaalne täiendav tühik */
+  left: 611px; /* X-telje asukoht Figmast */
+  background-color: #000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; /* Figma järgi */
 }
+
+.start-btn:hover {
+  background-color: #333; /* Hover efekt */
+}
+
 
 
 .start-btn:hover {
