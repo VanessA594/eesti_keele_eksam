@@ -22,7 +22,7 @@ body {
 }
 
 /* Header ja logo */
-header {
+.header {
   display: flex;
   flex-direction: column; /* Logo ja tekst virnastatud */
   align-items: center;
@@ -42,7 +42,7 @@ header img.logo {
 }
 
 /* H1 stiil */
-h1 {
+.h1 {
   font-size: 64px; /* Teksti suurus */
   position: absolute;
   top: 348px; /* Y-telje asukoht Figmast */
