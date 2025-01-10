@@ -33,9 +33,12 @@ body {
 }
 
 header img.logo {
+  position: absolute;
+  top: 106px; /* Logo kaugus ülevalt */
+  left: 96px; /* Logo kaugus vasakult */
   width: 350px; /* Logo laius */
   height: 165px; /* Logo kõrgus */
-  object-fit: contain; /* Veendub, et logo ei moondu */
+  object-fit: contain; /* Veendub, et logo ei moondu *
 }
 
 /* H1 stiil */
