@@ -29,7 +29,7 @@ h1 {
 }
 
 
-header img.logo {
+.logo {
   width: 350px; /* Logo laius */
   height: 165px; /* Logo kõrgus */
   top: 106px; /* Y-telje asukoht Figmast */
