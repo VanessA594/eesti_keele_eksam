@@ -47,21 +47,22 @@ main {
 }
 
 .start-btn {
-  background-color: #000;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 20px 0;
-  cursor: pointer;
+  width: 227px; /* Nupu laius */
+  height: 64px; /* Nupu kõrgus */
+  border-radius: 8px; /* Nurgad ümaraks */
+  background-color: #000; /* Taust must */
+  border: none; /* Eemaldame ääre */
+  color: white; /* Tekst valge */
+  text-align: center; /* Teksti keskele joondamine */
+  font-size: 16px; /* Teksti suurus */
+  line-height: 64px; /* Tekst vertikaalselt keskele */
+  cursor: pointer; /* Kursor muutub pointeriks */
 }
 
 .start-btn:hover {
-  background-color: #333; /* Hover efekt */
+  background-color: #333; /* Hover-efekt: tumedam must */
 }
+
 
 .intro-text {
   font-size: 18px;
