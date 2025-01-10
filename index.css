@@ -9,7 +9,7 @@ body {
   background-color: white; /* Taust hele */
   display: flex;
   flex-direction: column; /* Üksikute elementide paigutus vertikaalselt */
-  min-height: 100vh;
+  min-height: 100vh; /* Kindlustab, et body katab kogu kõrguse */
 }
 
 /* Layout määramine */
@@ -33,18 +33,15 @@ body {
 }
 
 header img.logo {
-  position: absolute;
-  top: 106px; /* Logo kaugus ülevalt */
-  left: 96px; /* Logo kaugus vasakult */
   width: 350px; /* Logo laius */
   height: 165px; /* Logo kõrgus */
   object-fit: contain; /* Veendub, et logo ei moondu */
 }
 
 /* H1 stiil */
-.h1 {
+h1 {
   font-size: 64px; /* Teksti suurus */
-  position: absolute;
+  position: relative; /* Positiivne paigutus, et see liiguks lehe järgi */
   top: 348px; /* Y-telje asukoht Figmast */
   left: 215px;
   width: 1020px; /* Tekstikasti laius */
@@ -76,12 +73,6 @@ header img.logo {
 
 .start-btn:hover {
   background-color: #333; /* Hover efekt */
-}
-
-
-
-.start-btn:hover {
-  background-color: #333; /* Hover-efekt: tumedam must */
 }
 
 /* Intro tekst */
