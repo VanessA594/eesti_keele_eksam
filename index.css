@@ -95,13 +95,23 @@ h1 {
   position: absolute; /* Positsioneerimine */
   background-color: transparent; /* Eemalda taust */
 }
-.layout {
+.layout1 {
   width: 1440px; /* Lehe laius */
   height: 1741px; /* Lehe kõrgus */
   margin: 0 auto; /* Keskendamine */
   background-color: white; /* Lehe taust */
   position: relative; /* Elementide positsioneerimine */
 }
+/* Uue logo stiil */
+.uus-logo {
+  position: absolute;
+  top: 55px; /* Y-telje positsioon */
+  left: 96px; /* X-telje positsioon */
+  width: 213px; /* Logo laius */
+  height: 165px; /* Logo kõrgus */
+  object-fit: contain; /* Veendu, et logo säilitab proportsioonid */
+}
+
 
 
 
