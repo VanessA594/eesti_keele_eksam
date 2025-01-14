@@ -95,6 +95,13 @@ h1 {
   position: absolute; /* Positsioneerimine */
   background-color: transparent; /* Eemalda taust */
 }
+.layout {
+  width: 1440px; /* Lehe laius */
+  height: 1741px; /* Lehe kõrgus */
+  margin: 0 auto; /* Keskendamine */
+  background-color: white; /* Lehe taust */
+  position: relative; /* Elementide positsioneerimine */
+}
 
 
 
@@ -113,4 +120,5 @@ h1 {
     margin: 10px;
     padding: 15px;
   }
+  
 } 
