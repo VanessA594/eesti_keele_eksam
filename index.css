@@ -129,6 +129,42 @@ h1 {
   color: #000; /* Must tekst */
   margin: 0; /* Vahed eemaldatud */
 }
+/* Menüü stiilid */
+.menu {
+  width: 200px; /* Menüü üldine laius */
+  height: 208px; /* Menüü üldine kõrgus */
+  background-color: #f5f1fa; /* Hele lilla taust */
+  position: absolute;
+  top: 352px; /* Y-telje asukoht */
+  left: 61px; /* X-telje asukoht */
+  border-radius: 10px; /* Ümarad nurgad */
+  display: flex;
+  flex-direction: column; /* Elemendid vertikaalselt */
+  gap: 15px; /* Vahe menüü elementide vahel */
+  padding: 20px; /* Vahed menüü sees */
+  box-sizing: border-box; /* Arvestab paddingut elemendi suuruses */
+}
+
+/* Menüüelementide stiilid */
+.menu-item {
+  font-family: 'Newsreader', sans-serif; /* Kirjatüüp */
+  font-size: 16px; /* Teksti suurus */
+  font-weight: normal; /* Tavatekst */
+  color: #000; /* Must tekst */
+  padding: 10px; /* Vahed elemendi sees */
+  background-color: white; /* Menüüelemendi taust */
+  border-radius: 5px; /* Ümarad nurgad */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Õrn vari */
+  text-align: center; /* Joondus keskele */
+  cursor: pointer; /* Muuda kursor nupule viidates */
+}
+
+/* Hover-efekt menüüelementidele */
+.menu-item:hover {
+  background-color: #e0d7f3; /* Hover-efekt: heledam lilla */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Suurem vari hoveril */
+}
+
 
 
 
