@@ -111,6 +111,24 @@ h1 {
   height: 165px; /* Logo kõrgus */
   object-fit: contain; /* Veendu, et logo säilitab proportsioonid */
 }
+.tekstikast {
+  position: absolute; /* Positsioneerimine lehe suhtes */
+  width: 357px; /* Tekstikasti laius */
+  height: 153px; /* Tekstikasti kõrgus */
+  left: 61px; /* X-teljel */
+  top: 275px; /* Y-teljel */
+  background-color: transparent; /* Läbipaistev taust */
+}
+
+.tekstikast p {
+  font-family: 'Newsreader', sans-serif; /* Kirjatüüp */
+  font-size: 16px; /* Teksti suurus */
+  font-weight: bold; /* Paks tekst */
+  text-align: left; /* Joondus vasakule */
+  line-height: 1.5; /* Reavahe */
+  color: #000; /* Must tekst */
+  margin: 0; /* Vahed eemaldatud */
+}
 
 
 
