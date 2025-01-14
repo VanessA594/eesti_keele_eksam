@@ -132,7 +132,7 @@ h1 {
 /* Menüü stiilid */
 .menu {
   width: 200px; /* Menüü üldine laius */
-  height: 208px; /* Menüü üldine kõrgus */
+  height: 191px; /* Menüü üldine kõrgus */
   background-color: #f5f1fa; /* Hele lilla taust */
   position: absolute;
   top: 352px; /* Y-telje asukoht */
